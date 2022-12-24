@@ -1,20 +1,68 @@
 <!doctype html>
-<html  lang="">
+<html  lang="en">
     <head>
         <meta charset="utf-8">
         <title>
             Coursera!
         </title>
+        <style>
+h2{
+    color: red;
+    text-align:center;
+}
+/* all with class="heightlight" */
+.heightlight{
+    font-size: 20px;
+    font-weight: bold;
+    font-style:italic;
+    background-color: green;
+    opacity: .6;
+}
+
+/* id with mainPoint attribute: */
+
+#mainPoint{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: red;
+    opacity: .7;
+}
+/* all p and h1 elements */
+p, h1{
+    color:blue;
+    text-align: center;
+}
+
+        </style>
+
+
+
+
+
+
+
+
+
+
+
     </head>
     <body >
-<h1><center><u>welcome</u>  </h1>
+<h1>welcome  </h1>
   
 it contains all the data which is going to show on the page;
 <br>
-<a href= "http://google.com"/> google </a> 
-<br>
-</center><br>
-<big>unordered list:</big>
+<a href= "http://google.com"> google </a> 
+<br><br>
+<h1>simple Selectors:(h1)</h1>
+<h2>Subheading 1(h2)</h2>
+<p class="heightlight">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur explicabo deserunt numquam porro nulla iusto dolore obcaecati saepe ad blanditiis ea commodi laborum reiciendis, nobis iste. Odio et dolor porro!</p>
+<p class="heightlight">paragraph with heightLight attribute:</p>
+<h2>Subheading 2(h2)</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto optio repudiandae laborum explicabo numquam autem totam ex ipsa, nisi vitae. Inventore autem optio excepturi? Ducimus atque asperiores dolores tempore maiores.</p>
+<div>this is the main point of the entire article. So, attribute 
+    <span id="mainPoint">id="mainpoint".</span>
+</div>
+unordered list:
 <ul>
     <li>Fruits name
     <ol><li>Mango</li>
@@ -22,7 +70,7 @@ it contains all the data which is going to show on the page;
     <li>Grapes</li>
     <li>Papaya</li></ol>
     </li>
-<br><hr>
+
     <li>Pet Animals
     <ol><li>Cow</li>
         <li>Goat</li>
